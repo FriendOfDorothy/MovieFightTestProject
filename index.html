@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.js" integrity="sha512-otOZr2EcknK9a5aa3BbMR9XOjYKtxxscwyRHN6zmdXuRfJ5uApkHB7cz1laWk2g8RKLzV9qv/fl3RPwfCuoxHQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <section class="hero is-primary is-bold">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title">
+                    Movie Fight
+                    <span class="icon">
+              <i class="fas fa-film"></i>
+            </span>
+                </h1>
+            </div>
+        </div>
+    </section>
+    <div class="container">
+        <div class="columns">
+            <div class="column">
+                <div id="left-autocomplete"></div>
+                <div id="left-summary"></div>
+            </div>
+            <div class="column">
+                <div id="right-autocomplete"></div>
+                <div id="right-summary"></div>
+            </div>
+        </div>
+        <div id="tutorial" class="column is-half notification is-primary tutorial">
+            <h1 class="title">Search for a movie on both sides.</h1>
+            <p class="subtitle">We will tell you which is best!</p>
+        </div>
+    </div>
+    <script src="utils.js"></script>
+    <script src="autocomplete.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
