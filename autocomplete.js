@@ -17,7 +17,7 @@ const createAutoComplete = ({ root, renderOption, onOptionSelect, inputValue, fe
             return;
         }
 
-        results.innerHTML = "";
+        results.innerHTML = '';
 
         dropDown.classList.add("is-active");
 
